@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Dev Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <nav id="primary-nav">
+            <!-- -------------------------------- modification ici -->
+            <div id="nav-logo">
+                <img src="images/w3schools-logo-icon.png" alt="">
+            </div>
+            <button id="menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="nav-links">
+                <li><a href="">Tutorials</a></li>
+                <li><a href="">Exercises</a></li>
+                <li><a href="">Certificates</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+
+            <div id="tool-block">
+                <input type="text" placeholder="search">
+                <button id="search-btn">
+                    <i class="fas fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div id="account-block">
+                <a href="/formulaire cc/signup.html" class="signup">Sign Up</a>
+                <a href="/formulaire cc/login.html" class="login">Log In</a>
+            </div>
+        </nav>
+
+        <nav id="secondary-nav">
+
+            <!-- <ul id="language-links">
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+                <li><a href="">SQL</a></li>
+                <li><a href="">PYTHON</a></li>
+                <li><a href="">JAVA</a></li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">HOW TO</a></li>
+                <li><a href="">W3 CSS</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">C ++</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+                <li><a href="">SQL</a></li>
+                <li><a href="">PYTHON</a></li>
+                <li><a href="">JAVA</a></li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">HOW TO</a></li>
+                <li><a href="">W3 CSS</a></li>
+                <li><a href="">C</a></li>
+                <li><a href="">C ++</a></li>
+            </ul> -->
+        </nav>
+    </header>
+    <main>
+        <aside id="sidebar">
+            <div id="sidebar-header">
+                <h3>Categories</h3>
+            </div>
+            <div id="sidebar-content">
+                <!-- ------------------------------------------ modification ici -->
+                <div class="content-group">
+                    <button class="content-head">
+                        <span><i class="fas fa-table-columns"></i> Developpement</span>
+                        <span class="icon"><i class="fas fa-angle-right"></i></span></i>
+                    </button>
+                    <button class="content-item closed-item">Developpement Web</button>
+                    <button class="content-item closed-item">Science des donnés</button>
+                    <button class="content-item closed-item">Développement mobile</button>
+                    <button class="content-item closed-item">Langage de programmation</button>
+                </div>
+                <div class="content-group">
+                    <button class="content-head">
+                        <span><i class="fa-solid fa-briefcase"></i> Business</span>
+                        <span class="icon"><i class="fas fa-angle-right"></i></span></i>
+                    </button>
+                    <button class="content-item closed-item">Entreprenariat</button>
+                    <button class="content-item closed-item">Communication</button>
+                    <button class="content-item closed-item">Strategies des affaires</button>
+                    <button class="content-item closed-item">Gestions des projets</button>
+                </div>
+                <div class="content-group">
+                    <button class="content-head">
+                        <span><i class="fa-solid fa-palette"></i> Design</span>
+                        <span class="icon"><i class="fas fa-angle-right"></i></span></i>
+                    </button>
+                    <button class="content-item closed-item">Conception Web</button>
+                    <button class="content-item closed-item">Conception graphique et illustration</button>
+                    <button class="content-item closed-item">3D et animation</button>
+                    <button class="content-item closed-item">Conception des jeux</button>
+                </div>
+                <div class="content-group">
+                    <button class="content-head">
+                        <span><i class="fa-solid fa-person-harassing"></i> Developpement personnel</span>
+                        <span class="icon"><i class="fas fa-angle-right"></i></span></i>
+                    </button>
+                    <button class="content-item closed-item">Transformation personnelle</button>
+                    <button class="content-item closed-item">Production personnelle</button>
+                    <button class="content-item closed-item">Leadership</button>
+                    <button class="content-item closed-item">Religion et spiritualité</button>
+                </div>
+                <div class="content-group">
+                    <button class="content-head">
+                        <span><i class="fa-solid fa-camera"></i> Photographie et video</span>
+                        <span class="icon"><i class="fas fa-angle-right"></i></span></i>
+                    </button>
+                    <button class="content-item closed-item">Photographie numerique</button>
+                    <button class="content-item closed-item">Photographie de portrait</button>
+                    <button class="content-item closed-item">Outils Photographique</button>
+                    <button class="content-item closed-item">Conception video</button>
+                </div>
+                <div class="content-group">
+                    <button class="content-head">
+                        <span><i class="fa-solid fa-suitcase-medical"></i> Santé et bien etre</span>
+                        <span class="icon"><i class="fas fa-angle-right"></i></span></i>
+                    </button>
+                    <button class="content-item closed-item">Fitness</button>
+                    <button class="content-item closed-item">Sports</button>
+                    <button class="content-item closed-item">Nutrition et régimes alimentaires</button>
+                    <button class="content-item closed-item">Danse</button>
+                </div>
+                <!-- -------------------------------------------- fin modification -->
+            </div>
+        </aside>
+        <div id="dashboard">
+            <div id="dashboard-header">
+                <h2>Welcome Admin</h2>
+                <p>Home / <a href="">Admin</a></p>
+            </div>
+            <div id="insights-board">
+                <div class="insight-card">
+                    <div class="insight-info">
+                        <p class="insight-title">Students</p>
+                        <p class="insight-value">60000</p>
+                    </div>
+                    <div class="insight-icon">
+                        <img src="images/student.png" alt="">
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-info">
+                        <p class="insight-title">Awards</p>
+                        <p class="insight-value">100+</p>
+                    </div>
+                    <div class="insight-icon">
+                        <img src="images/student.png" alt="">
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-info">
+                        <p class="insight-title">Departments</p>
+                        <p class="insight-value">23+</p>
+                    </div>
+                    <div class="insight-icon">
+                        <img src="images/student.png" alt="">
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-info">
+                        <p class="insight-title">Revenue</p>
+                        <p class="insight-value">10M $</p>
+                    </div>
+                    <div class="insight-icon">
+                        <img src="images/student.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="stats-board">
+                <div class="stat-card">
+                    <div id="line-chart"></div>
+                </div>
+                <div class="stat-card">
+                    <div id="bar-chart"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/apexcharts.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
